@@ -79,29 +79,29 @@ int main()
     /** Mon programme **/
 
         //Ce programme fait la somme de 2 entiers a et b et nous renvoi le resultat dans result
-        int a, b, result ;
-        printf("Valeur1: ");
-        scanf("%d", &a);
-        printf("Valeur2: ");
-        scanf("%d",&b);
-        result= a + b;
-        printf("Valeur1 + Valeur2 = %d",result);
-        printf("\n\n"); // Retour � la ligne pour une meilleure lisibilites
+    int a, b, result ;
+    printf("Valeur1: ");
+    scanf("%d", &a);
+    printf("Valeur2: ");
+    scanf("%d",&b);
+    result= a + b;
+    printf("Valeur1 + Valeur2 = %d",result);
+    printf("\n\n"); // Retour � la ligne pour une meilleure lisibilites
 
 
     // Ce programme fait la somme de 2 entiers entr�e par l'utilisateur et affiche le resultat
     /** Programme du prof **/
 
-        int nombre1=0, nombre2=0, somme=0 ;
-        printf("Entrez le nombre 1: ");
-        scanf("%d", &nombre1);
-        printf("Entrez le nombre 2: ");
-        scanf("%d",&nombre2);
+    int nombre1=0, nombre2=0, somme=0 ;
+    printf("Entrez le nombre 1: ");
+    scanf("%d", &nombre1);
+    printf("Entrez le nombre 2: ");
+    scanf("%d",&nombre2);
         //nombre++; on ajoute 1 au nombre1 entrez, donc si nombre1=5, alors dans somme on aura 6
-        nombre1++;
-        somme= nombre1 + nombre2;
-        printf("%d + %d = %d",nombre1, nombre2,somme);
-        printf("\n\n"); // Retour � la ligne pour une meilleure lisibilites
+    nombre1++;
+    somme= nombre1 + nombre2;
+    printf("%d + %d = %d",nombre1, nombre2,somme);
+    printf("\n\n"); // Retour � la ligne pour une meilleure lisibilites
 
 
     int nombre_a_add = 2, nombre_a_sous = 2, nombre_a_mult = 2, nombre_a_div = 2, nombre_a_modulo = 2;
@@ -159,48 +159,48 @@ int main()
     /** Ne prend que des entiers sinon c'est error **/
 
         //Fonction qui permet de calculer la puissance de 2 nombres entiers entr�s par l'utilisateur
-        int aa=0, bb=0, cc=0;
-        printf("Entrez le nombre entier : ");
-        scanf("%d", &bb);
-        printf("Entrez la puissance entiere : ");
-        scanf("%d",&cc);
-        //nombre++; on ajoute 1 au nombre1 entrez, donc si nombre1=5, alors dans somme on aura 6
-        //nombre1++;
-        aa=pow(bb, cc);
-        printf("%d ** %d = %d", bb,cc, aa);
-        printf("\n\n"); // Retour � la ligne pour une meilleure lisibilites
+    int aa=0, bb=0, cc=0;
+    printf("Entrez le nombre entier : ");
+    scanf("%d", &bb);
+    printf("Entrez la puissance entiere : ");
+    scanf("%d",&cc);
+    //nombre++; on ajoute 1 au nombre1 entrez, donc si nombre1=5, alors dans somme on aura 6
+    //nombre1++;
+    aa=pow(bb, cc);
+    printf("%d ** %d = %d", bb,cc, aa);
+    printf("\n\n"); // Retour � la ligne pour une meilleure lisibilites
 
 
     /** Prend comme valeurs des entiers comme floattant **/
 
 
         //Fonction qui permet de calculer la puissance de 2 nombres flottantes entr�s par l'utilisateur
-        float aaa=0.0, bbb=0.0, ccc=0.0;
-        printf("Entrez le nombre floattant : ");
-        scanf("%f", &bbb);
-        printf("Entrez la puissance flottante : ");
-        scanf("%f",&ccc);
-        //nombre++; on ajoute 1 au nombre1 entrez, donc si nombre1=5, alors dans somme on aura 6
-        //nombre1++;
-        aaa=pow(bbb, ccc);
-        printf("%.2f ** %.2f = %.2f", bbb,ccc, aaa);
-        printf("\n\n"); // Retour � la ligne pour une meilleure lisibilites
+    float aaa=0.0, bbb=0.0, ccc=0.0;
+    printf("Entrez le nombre floattant : ");
+    scanf("%f", &bbb);
+    printf("Entrez la puissance flottante : ");
+    scanf("%f",&ccc);
+    //nombre++; on ajoute 1 au nombre1 entrez, donc si nombre1=5, alors dans somme on aura 6
+    /:nombre1++;
+    aaa=pow(bbb, ccc);
+    printf("%.2f ** %.2f = %.2f", bbb,ccc, aaa);
+    printf("\n\n"); // Retour � la ligne pour une meilleure lisibilites
 
 
     /** Prend comme valeurs des doubles, entiers, floattant **/
 
 
         //Fonction qui permet de calculer la puissance de 2 nombres flottantes entr�s par l'utilisateur
-        double aaaa=0.0, bbbb=0.0, cccc=0.0;
-        printf("Entrez le nombre floattant : ");
-        scanf("%lf", &bbbb);//Utilisation de %lf pour lire un double
-        printf("Entrez la puissance flottante : ");
-        scanf("%lf",&cccc);//Utilisation de %lf pour lire un double
-        //nombre++; on ajoute 1 au nombre1 entrez, donc si nombre1=5, alors dans somme on aura 6
-        //nombre1++;
-        aaaa=pow(bbbb, cccc);
-        printf("%.2lf ** %.2lf = %.2lf", bbbb,cccc, aaaa);//Utilisation de %lf pour lire les 3 doubles
-        printf("\n\n"); // Retour � la ligne pour une meilleure lisibilites
+    double aaaa=0.0, bbbb=0.0, cccc=0.0;
+    printf("Entrez le nombre floattant : ");
+    scanf("%lf", &bbbb);//Utilisation de %lf pour lire un double
+    printf("Entrez la puissance flottante : ");
+    scanf("%lf",&cccc);//Utilisation de %lf pour lire un double
+    //nombre++; on ajoute 1 au nombre1 entrez, donc si nombre1=5, alors dans somme on aura 6
+    //nombre1++;
+    aaaa=pow(bbbb, cccc);
+    printf("%.2lf ** %.2lf = %.2lf", bbbb,cccc, aaaa);//Utilisation de %lf pour lire les 3 doubles
+    printf("\n\n"); // Retour � la ligne pour une meilleure lisibilites
 
 
     return 0;
