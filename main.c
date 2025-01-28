@@ -8,23 +8,22 @@ int main()
     /* Ceci
     est un commentaire
     sur plusieurs lignes */
-    /*    printf("Hello world!\n\n"); //Cette instruction affiche Hello world ! a l'ecran et revient a la ligne
+    printf("Hello world!\n\n"); // Cette instruction affiche Hello world ! a l'ecran et revient a la ligne
 
-        int nombreDeVies; //Declarer une variable qui est nombreDeVies ici
-        nombreDeVies=5; //La variable nombreDeVies a pour valeur 5
-        printf("Vous avez %d vies \n", nombreDeVies);
-        printf("*** BAM ***\n");
-        nombreDeVies=4;
-        printf("Ah merde il vous reste que %d vies maintenat ! \n", nombreDeVies);
-        int nbreDeVies = 10, niveau = 1;
-        printf("Vous avez %d vies et vous etes au niveau numero %d \n\n", nbreDeVies, niveau);
+    int nombreDeVies; // Declarer une variable qui est nombreDeVies ici
+    nombreDeVies = 5; // La variable nombreDeVies a pour valeur 5
+    printf("Vous avez %d vies \n", nombreDeVies);
+    printf("*** BAM ***\n");
+    nombreDeVies = 4;
+    printf("Ah merde il vous reste que %d vies maintenat ! \n", nombreDeVies);
+    int nbreDeVies = 10, niveau = 1;
+    printf("Vous avez %d vies et vous etes au niveau numero %d \n\n", nbreDeVies, niveau);
 
-
-        // On initialise la variable age � 0
-        int age = 0; //Grace cette definition si un nombre avec ou sans virgule est saisie, on aura 0 ans
-        printf("Quel age avez-vous ? \n"); // Juste affiche le texte entre parenthese
-        scanf("%d", &age); //On demande d'entrer l'age avec scanf
-        printf("Ah donc vous avez %d ans", age); */
+    // On initialise la variable age � 0
+    int age = 0;                       // Grace cette definition si un nombre avec ou sans virgule est saisie, on aura 0 ans
+    printf("Quel age avez-vous ? \n"); // Juste affiche le texte entre parenthese
+    scanf("%d", &age);                 // On demande d'entrer l'age avec scanf
+    printf("Ah donc vous avez %d ans \n\n", age);
 
     /*** Les calculs de base: +, -, *, /, %(modulo) ***/
 
@@ -78,7 +77,7 @@ int main()
 
     // Ce programme fait la somme de 2 entiers entr�e par l'utilisateur et affiche le resultat
     /** Mon programme **/
-    /*
+
         //Ce programme fait la somme de 2 entiers a et b et nous renvoi le resultat dans result
         int a, b, result ;
         printf("Valeur1: ");
@@ -88,11 +87,11 @@ int main()
         result= a + b;
         printf("Valeur1 + Valeur2 = %d",result);
         printf("\n\n"); // Retour � la ligne pour une meilleure lisibilites
-    */
+
 
     // Ce programme fait la somme de 2 entiers entr�e par l'utilisateur et affiche le resultat
     /** Programme du prof **/
-    /*
+
         int nombre1=0, nombre2=0, somme=0 ;
         printf("Entrez le nombre 1: ");
         scanf("%d", &nombre1);
@@ -103,7 +102,7 @@ int main()
         somme= nombre1 + nombre2;
         printf("%d + %d = %d",nombre1, nombre2,somme);
         printf("\n\n"); // Retour � la ligne pour une meilleure lisibilites
-    */
+
 
     int nombre_a_add = 2, nombre_a_sous = 2, nombre_a_mult = 2, nombre_a_div = 2, nombre_a_modulo = 2;
     nombre_a_add += 4;
@@ -158,7 +157,7 @@ int main()
     printf("\n\n");     // Retour � la ligne pour une meilleure lisibilites
 
     /** Ne prend que des entiers sinon c'est error **/
-    /*
+
         //Fonction qui permet de calculer la puissance de 2 nombres entiers entr�s par l'utilisateur
         int aa=0, bb=0, cc=0;
         printf("Entrez le nombre entier : ");
@@ -171,10 +170,10 @@ int main()
         printf("%d ** %d = %d", bb,cc, aa);
         printf("\n\n"); // Retour � la ligne pour une meilleure lisibilites
 
-    */
+
     /** Prend comme valeurs des entiers comme floattant **/
 
-    /*
+
         //Fonction qui permet de calculer la puissance de 2 nombres flottantes entr�s par l'utilisateur
         float aaa=0.0, bbb=0.0, ccc=0.0;
         printf("Entrez le nombre floattant : ");
@@ -186,11 +185,11 @@ int main()
         aaa=pow(bbb, ccc);
         printf("%.2f ** %.2f = %.2f", bbb,ccc, aaa);
         printf("\n\n"); // Retour � la ligne pour une meilleure lisibilites
-    */
+
 
     /** Prend comme valeurs des doubles, entiers, floattant **/
 
-    /*
+
         //Fonction qui permet de calculer la puissance de 2 nombres flottantes entr�s par l'utilisateur
         double aaaa=0.0, bbbb=0.0, cccc=0.0;
         printf("Entrez le nombre floattant : ");
@@ -202,7 +201,7 @@ int main()
         aaaa=pow(bbbb, cccc);
         printf("%.2lf ** %.2lf = %.2lf", bbbb,cccc, aaaa);//Utilisation de %lf pour lire les 3 doubles
         printf("\n\n"); // Retour � la ligne pour une meilleure lisibilites
-    */
+
 
     return 0;
 }
