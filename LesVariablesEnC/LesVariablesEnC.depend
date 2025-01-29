@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1738166346 source:c:\users\mours\desktop\learnc\lesvariablesenc\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+

@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1738167899 source:c:\users\mours\desktop\learnc\lesbouclesenc\main.c
+	<stdio.h>
+	<stdlib.h>
+
